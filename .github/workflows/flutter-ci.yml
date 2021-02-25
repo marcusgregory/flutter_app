@@ -35,7 +35,7 @@ jobs:
     
     # Gera o APK.
     - name: Build Android App
-    - run: flutter build apk
+      run: flutter build apk
     
     - name: Build iOS App
       run: |
