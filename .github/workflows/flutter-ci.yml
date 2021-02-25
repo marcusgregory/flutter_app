@@ -45,7 +45,7 @@ jobs:
           cd Payload
           ln -s ../Runner.app
           cd ..
-          zip -r app.ipa Payload
+          zip -r app-release.ipa Payload
     
     # Faz upload do apk gerado para os 'artifacts' do GitHub.
     - uses: actions/upload-artifact@v1
